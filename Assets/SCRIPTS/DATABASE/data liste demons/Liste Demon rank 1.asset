@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 773f1f4bed8d2418b8881e68c93431a9, type: 3}
+  m_Name: Liste Demon rank 1
+  m_EditorClassIdentifier: 
+  Name: 
+  Life: 12222
+  itemList:
+  - DemonName: "d\xE9mon archer"
+    genreTag: "d\xE9mon mineur"
+    Life: 5
+    Speed: 0
+    sensorRadius: 25
+    distanceLine: 2
+    maxHitContact: 10
+    maxHitDistance: 0
+    explosion: {fileID: 1185926827467842, guid: ae53962b25b65490ba6944277a46fb25,
+      type: 2}
+    Score: 6
+    TargetList:
+    - TagName: angel
+      Damage: 10
+    - TagName: griffon
+      Damage: 2
+    bonusList:
+    - ennemyName: 
+      Damage: 5
+    ability:
+    - archer
+    - cracheur
+  - DemonName: "d\xE9mon cracheur"
+    genreTag: "d\xE9mon mineur"
+    Life: 8
+    Speed: 0
+    sensorRadius: 5
+    distanceLine: 0
+    maxHitContact: 20
+    maxHitDistance: 0
+    explosion: {fileID: 1185926827467842, guid: ae53962b25b65490ba6944277a46fb25,
+      type: 2}
+    Score: 0
+    TargetList:
+    - TagName: mineur
+      Damage: 3
+    - TagName: 
+      Damage: 0
+    bonusList:
+    - ennemyName: 
+      Damage: 5
+    - ennemyName: 
+      Damage: 5
+    ability:
+    - 
+    - 
